@@ -1,0 +1,52 @@
+
+.formularioPrincipal
+{
+    padding-left: 35vw;
+    padding-right: 35vw;
+}
+
+.formulario
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+}
+
+.titulo
+{
+    display: flex;
+    text-align: left;
+}
+
+.titulo h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.opcion
+{
+    width: 20px;
+}
+
+.tamanoEntrada
+{
+    height: 35px;
+}
+
+.btnPublicar
+{
+    width: 250px;
+    height: 46px;
+    color: #c36;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.btnPublicar:hover
+{
+    background-color: #c36;
+    color: white;
+}

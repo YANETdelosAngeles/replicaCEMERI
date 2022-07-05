@@ -1,0 +1,167 @@
+*{
+    font: "Libre Franklin",serif;
+}
+
+#presentacion{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+
+    background-color: transparent;
+}
+
+#presentacion a{
+    color: #6EC1E4;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#presentacion i{
+    padding-right: 0.5vw;
+    margin-left: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+#d1{
+    text-align: left;
+    width: 20%;
+    font-size: 16px;
+}
+
+#d2{
+    text-align: center;
+    width: 20%;
+
+    font-size: 1.6vw;
+    font-weight: 500;
+    line-height: 1vw;
+    letter-spacing: 0.2vw;
+}
+
+#d3{
+    text-align: right;
+    width: 20%;
+    font-size: 16px;
+}
+
+#presentacion a:hover{
+    text-decoration: underline;
+}
+
+#d2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* comienzan estilos de menú */
+
+#menu{
+    border-top: solid hsl(0, 0%, 73%) 0.3px;
+    border-bottom: solid hsl(0, 0%, 73%) 0.3px;
+
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+
+    background-color: white;
+    transition: background-color 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+nav{
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li a{
+    padding: 13px 30px;
+    font-size: 0.85vw;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li .titulos:hover{
+	color: #CE9461;
+	font-size: 0.95vw;
+	text-decoration: underline;
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+span{
+        line-height: 1;
+        padding: 10px 0 10px 10px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+}
+
+.menu-horizontal
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu-horizontal li a
+{
+    display: block;
+}
+
+.menu-vertical
+{
+    list-style: none;
+    padding: 0;
+    margin: 1vw;
+    position:fixed;
+    display: none;
+    background-color: #f3f2f2;    
+}
+
+.menu-vertical li a
+{
+    font-size: 0.8vw;
+    border-color: hsl(0, 0%, 73%,0.2);
+    border-width: 0.1px;
+    border-style: solid;
+}
+
+.menu-horizontal li:hover .menu-vertical
+{
+    display: block;
+    background-color: white;
+
+    padding: 0;
+    margin: 0;
+}
+
+.menu-vertical li:hover
+{
+    position: relative;
+    display: block;
+    background-color: #f3f2f2;
+    text-decoration: underline;
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.espacio-icon{
+    margin-left: 0.8vw;
+}

@@ -1,0 +1,193 @@
+*{
+    font: "Libre Franklin",serif;
+}
+/*------------------------ div Image*/
+h1{
+    padding-top: 3vw;
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+#image{
+    padding-top: 1vw;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#cinta{
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 1vw;
+}
+
+#social{
+    text-align: left;
+}
+
+#social i{
+    margin-left: 0.8vw;
+    font-size: 1.5vw;
+    opacity: 0.7;
+}
+
+#social i:hover{
+    color: #CE9461;
+    cursor: pointer;
+
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#fecha{
+    margin-left: 20vw;
+    font-size: 0.9vw;
+    font-weight: 100;
+    font-family: "Cardo", Serif;
+}
+
+/*------------------------ div texto*/
+#texto{
+    padding-top: 1vw;
+    padding-left: 35vw;
+    padding-right: 35vw;
+    line-height: 1.9vw;
+    letter-spacing: 0.5;
+    font-weight: 400;
+
+    font-size: 0.9vw;
+
+    text-align: justify;
+}
+
+#texto h2{
+    font-size: 1.7vw;
+    font-weight: 400;
+}
+
+
+#socialTexto{
+    padding-top: 1.3vw;
+    text-align: center;
+}
+
+#socialTexto i{
+    margin-left: 0.8vw;
+    font-size: 1.5vw;
+    opacity: 0.8;
+}
+
+#socialTexto i:hover{
+    color: #CE9461;
+    cursor: pointer;
+
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#Autores p{
+    font-size: 0.8vw;
+}
+
+#Autores span{
+    color: rgb(187, 65, 65);
+    font-weight: bold;
+}
+
+#Autores button{
+    background-color: transparent;
+    border: 0;
+}
+
+#Autores button:active{
+    border: 0;
+}
+
+#Autores span:hover{
+    color: rgb(130, 211, 211);
+    text-decoration: underline;
+}
+
+details
+{
+    cursor: pointer;
+    border-bottom: solid hsl(0, 0%, 73%) 0.3px;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.sumaryAF
+{
+    color: rgb(175, 81, 81);
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.sumaryAF:hover
+{
+    color: #6ec1e4;
+    text-decoration: underline;
+}
+
+#Botones
+{
+    margin-top: 2em;
+    display: flex;
+    background-color:  rgb(238, 238, 238);;
+}
+
+.botonIzq
+{
+    width: 60%;
+    display: flex;
+    text-align: center;
+}
+
+.botonIzq .texto:hover{
+    color: #CE9461;
+    text-decoration: underline;
+    text-decoration-color: #6ec1e4;
+    cursor: pointer;
+}
+
+
+.icono
+{
+    display: flex;
+    align-items: center;
+}
+
+.botonDer
+{
+    width: 40%;
+    border-left: solid hsl(0, 0%, 73%) 0.12vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.botonDer .texto:hover{
+    color: #CE9461;
+    text-decoration: underline;
+    text-decoration-color: #6ec1e4;
+    cursor: pointer;
+}
+
+.separador
+{
+    margin-top: 3em;
+    border: solid 0.3px #D5D5D5;
+}
