@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YANETdelosAngeles/replicaCEMERI/static/css/main.deb4990c.css",
+    "main.js": "/YANETdelosAngeles/replicaCEMERI/static/js/main.26536d8c.js",
+    "static/js/787.20949e2d.chunk.js": "/YANETdelosAngeles/replicaCEMERI/static/js/787.20949e2d.chunk.js",
+    "index.html": "/YANETdelosAngeles/replicaCEMERI/index.html",
+    "main.deb4990c.css.map": "/YANETdelosAngeles/replicaCEMERI/static/css/main.deb4990c.css.map",
+    "main.26536d8c.js.map": "/YANETdelosAngeles/replicaCEMERI/static/js/main.26536d8c.js.map",
+    "787.20949e2d.chunk.js.map": "/YANETdelosAngeles/replicaCEMERI/static/js/787.20949e2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb4990c.css",
+    "static/js/main.26536d8c.js"
+  ]
+}
