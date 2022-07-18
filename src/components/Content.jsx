@@ -10,11 +10,11 @@ function Content() {
                 <img src="https://cemeri.org/wp-content/uploads/Sin-titulo.jpg" alt='imagen de personas cocechando'></img>
                 <div id='cinta'>
                     <div id='social'>
-                        <i class="ri-facebook-circle-fill"></i>
-                        <i class="ri-twitter-fill"></i>
-                        <i class="ri-linkedin-box-fill"></i>
-                        <i class="ri-whatsapp-line"></i>
-                        <i class="ri-mail-fill"></i>
+                        <i className="ri-facebook-circle-fill"></i>
+                        <i className="ri-twitter-fill"></i>
+                        <i className="ri-linkedin-box-fill"></i>
+                        <i className="ri-whatsapp-line"></i>
+                        <i className="ri-mail-fill"></i>
                     </div>
                     <div id='fecha'>
                         mayo 25, 2022
@@ -127,17 +127,17 @@ function Content() {
                 </p>
                 
                 <div id='socialTexto'>
-                        <i class="ri-facebook-circle-fill"></i>
-                        <i class="ri-twitter-fill"></i>
-                        <i class="ri-linkedin-box-fill"></i>
-                        <i class="ri-whatsapp-line"></i>
-                        <i class="ri-mail-fill"></i>
+                        <i className="ri-facebook-circle-fill"></i>
+                        <i className="ri-twitter-fill"></i>
+                        <i className="ri-linkedin-box-fill"></i>
+                        <i className="ri-whatsapp-line"></i>
+                        <i className="ri-mail-fill"></i>
                 </div>
 
                 <br />
 
                 <details>
-                    <summary><span class="sumaryAF"> Autor y Fuentes </span></summary>
+                    <summary><span className="sumaryAF"> Autor y Fuentes </span></summary>
 
                     <div id="Autores">
                         <p>
@@ -208,30 +208,30 @@ function Content() {
                 </details>
 
                 <div id='Botones'>
-                    <div class="botonIzq">
-                        <div class="icono">
+                    <div className="botonIzq">
+                        <div className="icono">
                             <span>
-                                <i class="ri-pen-nib-fill"></i>
+                                <i className="ri-pen-nib-fill"></i>
                             </span>                            
                         </div>
-                        <div class="texto">
+                        <div className="texto">
                             <span>Contenido apegado a The Trust<br/> Project</span>
                         </div>
                     </div>
 
-                    <div class="botonDer">
-                        <div class="iconoText">
+                    <div className="botonDer">
+                        <div className="iconoText">
                             <span>
-                                <i class="ri-spam-2-fill"></i>
+                                <i className="ri-spam-2-fill"></i>
                             </span>     
 
-                            <span class="texto">Reportar una errata</span>
+                            <span className="texto">Reportar una errata</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <section class="separador"></section>
+            <section className="separador"></section>
         </>
     )
 }

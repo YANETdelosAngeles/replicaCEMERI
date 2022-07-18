@@ -4,8 +4,8 @@ import './styles/Form.css';
 function Form() {
     return (
         <>
-            <div class="formularioPrincipal">
-                <div class="titulo">
+            <div className="formularioPrincipal">
+                <div className="titulo">
                     <h1>Deja una respuesta</h1>
                 </div>
                 <div>
@@ -15,28 +15,28 @@ function Form() {
                 </div>
                 <div>
                     <form action="">                        
-                        <div class="formulario">
+                        <div className="formulario">
                             <label htmlFor="">Comentario*</label>
                             <textarea name="" id="" cols="60" rows="10"></textarea>
                         </div>
-                        <div class="formulario">
+                        <div className="formulario">
                             <label htmlFor="">Nombre*</label>
-                            <input class="tamanoEntrada" type="text" />
+                            <input className="tamanoEntrada" type="text" />
                         </div>
-                        <div class="formulario">
+                        <div className="formulario">
                             <label htmlFor="">Correo Electronico*</label>
-                            <input class="tamanoEntrada" type="email" />
+                            <input className="tamanoEntrada" type="email" />
                         </div>
-                        <div class="formulario">
+                        <div className="formulario">
                             <label htmlFor="">Web*</label>
-                            <input class="tamanoEntrada" type="text" />
+                            <input className="tamanoEntrada" type="text" />
                         </div>
-                        <div class="formulario">
-                            <input class="opcion" type="checkbox" />
+                        <div className="formulario">
+                            <input className="opcion" type="checkbox" />
                             <label htmlFor="">Guarda mi nombre, correo electrónico y web en este navegador para la próxima vez que comente.</label>
                         </div>
                         <div>
-                            <button class="btnPublicar">Publicar el comentario</button>
+                            <button className="btnPublicar">Publicar el comentario</button>
                         </div>
                     </form>
                 </div>
